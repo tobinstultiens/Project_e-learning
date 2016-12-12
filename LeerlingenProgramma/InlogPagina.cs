@@ -17,6 +17,10 @@ namespace LeerlingenProgramma
             {
                 KeuzeMenu.ShowDialog();
             }
+            else
+            {
+                MessageBox.Show("Fail");
+            }
         }
     }
     public class AlgemeneGegevens
