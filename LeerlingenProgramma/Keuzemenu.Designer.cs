@@ -1,6 +1,6 @@
 ﻿namespace LeerlingenProgramma
 {
-    partial class Form1
+    partial class Keuzemenu
     {
         /// <summary>
         /// Required designer variable.
@@ -28,12 +28,19 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
+            this.SuspendLayout();
+            // 
+            // Keuzemenu
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.Text = "Form1";
+            this.ClientSize = new System.Drawing.Size(613, 362);
+            this.Name = "Keuzemenu";
+            this.Text = "Keuzemenu";
+            this.ResumeLayout(false);
+
         }
 
         #endregion
     }
 }
-

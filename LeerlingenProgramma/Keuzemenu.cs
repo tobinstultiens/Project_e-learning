@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace LeerlingenProgramma
 {
-    public partial class Form1 : Form
+    public partial class Keuzemenu : Form
     {
-        public Form1()
+        public Keuzemenu()
         {
             InitializeComponent();
         }
