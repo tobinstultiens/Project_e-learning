@@ -2,9 +2,9 @@
 using System.Configuration;
 
 
-namespace LeerlingenProgramma
+namespace Test
 {
-    public class Database
+    public class TestDatabase
     {
         static MySqlConnection con = null;
         public static MySqlConnection GetDBConnection()
@@ -66,6 +66,15 @@ namespace LeerlingenProgramma
             }
             GetDBConnection().Close();
             return result;
+        }
+
+        public void Purge()
+        {
+            GetDBConnection().Open();
+            MySqlCommand cmd = con.CreateCommand();
+            cmd.CommandText = "DELETE FROM user";
+            cmd.ExecuteNonQuery();
+            GetDBConnection().Close();
         }
     }
 }

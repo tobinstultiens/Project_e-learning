@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace LeerlingenProgramma.Properties
+namespace Tests.Properties
 {
 
 
