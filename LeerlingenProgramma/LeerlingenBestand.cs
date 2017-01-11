@@ -2,9 +2,9 @@
 
 namespace LeerlingenProgramma
 {
-    public partial class Keuzemenu : Form
+    public partial class LeerlingenBestand : Form
     {
-        public Keuzemenu()
+        public LeerlingenBestand()
         {
             InitializeComponent();
         }

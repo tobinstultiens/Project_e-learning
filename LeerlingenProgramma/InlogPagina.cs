@@ -5,7 +5,7 @@ namespace LeerlingenProgramma
     public partial class InlogPagina : Form
     {
         Database DB = new Database();
-        Keuzemenu KeuzeMenu = new Keuzemenu();
+        LeerlingenBestand Leerlingenkant = new LeerlingenBestand();
         public InlogPagina()
         {
             InitializeComponent();
@@ -22,7 +22,7 @@ namespace LeerlingenProgramma
                         MessageBox.Show("fail");
                         break;
                     case 1:
-                        KeuzeMenu.ShowDialog();
+                        Leerlingenkant.ShowDialog();
                         break;
 
                     case 2:

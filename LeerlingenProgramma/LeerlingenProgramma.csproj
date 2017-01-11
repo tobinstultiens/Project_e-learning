@@ -61,19 +61,25 @@
     <Compile Include="InlogPagina.Designer.cs">
       <DependentUpon>InlogPagina.cs</DependentUpon>
     </Compile>
-    <Compile Include="Keuzemenu.cs">
+    <Compile Include="LeerlingenBestand.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Keuzemenu.Designer.cs">
-      <DependentUpon>Keuzemenu.cs</DependentUpon>
+    <Compile Include="LeerlingenBestand.Designer.cs">
+      <DependentUpon>LeerlingenBestand.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LerarenKeuze.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LerarenKeuze.Designer.cs">
+      <DependentUpon>LerarenKeuze.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="InlogPagina.resx">
       <DependentUpon>InlogPagina.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Keuzemenu.resx">
-      <DependentUpon>Keuzemenu.cs</DependentUpon>
+    <EmbeddedResource Include="LeerlingenBestand.resx">
+      <DependentUpon>LeerlingenBestand.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
